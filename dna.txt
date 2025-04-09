@@ -8,12 +8,18 @@
         "edit-html.html",
         "edit-index.html",
         "edit-php.html",
+        "edit-qrcode-list.html",
+        "geometron.js",
         "index.html",
+        "qrcode-list.html",
+        "qrcode-list.txt",
         "qrcode-page.html",
         "qrcode.html",
         "readme.html",
+        "squares.html",
         "trashmagic.css",
-        "trashmagic.js"
+        "trashmagic.js",
+        "wall.txt"
     ],
     "php": [
         "branch.txt",

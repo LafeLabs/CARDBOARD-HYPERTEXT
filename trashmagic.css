@@ -1,7 +1,7 @@
 body{
     overflow:scroll;
-    background-color:#404040;
-    FONT-FAMILY:COMIC SANS MS;
+    background-color:#9f8767;
+    font-family:Arial;
 }
 pre{
     font-family:courier;
@@ -9,7 +9,7 @@ pre{
 h1{
     text-align:center;
     font-size:4em;
-    FONT-FAMILY:COMIC SANS MS;
+    font-family:helvetica;
 }
 p{
     text-align:justify;
@@ -43,7 +43,7 @@ a{
 }
 img{
     display:block;
-    max-width:80%;
+    max-width:50%;
     margin:auto;
     margin-top:2em;
     margin-bottom:2em;

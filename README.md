@@ -1,4 +1,9 @@
-## [http://localhost/CARDBOARD-HYPERTEXT/](http://localhost/CARDBOARD-HYPERTEXT/)
+## [http://localhost/CARDBOARD-HYPERTEXT/readme.html](http://localhost/CARDBOARD-HYPERTEXT/readme.html)
+
+ - [edit-index.html](edit-index.html)
+ - [edit-html.html](edit-html.html)
+ - [edit-php.html](edit-php.html)
+
 
 # [CARDBOARD HYPERTEXT](https://github.com/LafeLabs/CARDBOARD-HYPERTEXT)
 
