@@ -108,9 +108,20 @@ CUT OUT SPACES FOR THUMB DRIVES INTO A GLUED STACK!
 
 THE GEOMETRON HYPERCUBE IS CONSTRUCTED FROM A SET OF 4 INCH SQUARES ACCORDING TO THE FOLLOWING PLANS:
 
+![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/cardboardbottom.jpg)
+
+
+![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/cardboardside.jpg)
+
+
+![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/cardboardcorner.jpg)
+
 ![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/road3cubes.jpg)
 
-![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/GEOMETRON-HYPERCUBE.png)
+![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/CUBE-CARDS.png)
+
+![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/GEOMETRON-HYPERCUBE.png)        
+
 
 ## CARDBOARD BOXES
 
