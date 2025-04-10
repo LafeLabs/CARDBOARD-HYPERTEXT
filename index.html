@@ -36,6 +36,11 @@ CAPS LOCK ALWAYS ON!
         padding:0.5em 0.5em 0.5em 0.5em;
         border-radius:0.5em;
     }
+    img{
+        border:solid;
+        border-radius:1em;
+        border-width:5px;
+    }
 </style>
 <body>    
 
@@ -64,7 +69,7 @@ CAPS LOCK ALWAYS ON!
     <a href = "edit-qrcode-list.html">edit-qrcode-list.html</a>
     <a href = "squares.html">squares.html</a>
     <a href = "geometron-squares.html">geometron-squares.html</a>
-    <a href = "images.html">images.html</a>
+    <a href = "freebox.html">freebox.html</a>
     <a href = "readme.html">Local README.md</a>
 
 
@@ -118,6 +123,59 @@ document.getElementById("wall").onkeyup = function() {
     httpc.send("data="+data+"&filename=" + currentfile);//send text to save-file.php
 }
 
+uploadImages = [];
+
+var httpcUpload = new XMLHttpRequest();
+httpcUpload.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        uploadImages = JSON.parse(this.responseText);
+        loadimagefeed();
+    }
+};
+httpcUpload.open("GET", "list-files.php", true);
+httpcUpload.send();
+
+function loadimagefeed(){
+
+    for(var index = 0;index < uploadImages.length;index++) {
+        if(uploadImages[index].includes(".png") || uploadImages[index].includes(".PNG") || uploadImages[index].includes(".jpg") || uploadImages[index].includes(".JPG") ||uploadImages[index].includes(".jpeg") || uploadImages[index].includes(".gif") ||uploadImages[index].includes(".GIF")){
+            
+            var newuploadbox = document.createElement("DIV");
+            newuploadbox.classList.add("imagebox");
+            var newimg = document.createElement("IMG");
+            newimg.src = uploadImages[index];
+            newimg.classList.add("uploadimage");
+            newuploadbox.appendChild(newimg);
+            document.getElementById("freebox").appendChild(newuploadbox);
+    
+        }
+    }    
+}
+
+/*
+upuploadImages = [];
+var httpc9 = new XMLHttpRequest();
+    httpc9.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        upuploadImages = JSON.parse(this.responseText);
+        for(var index = upuploadImages.length - 1;index >= 0;index--) {
+            if(upuploadImages[index].includes(".png") && upuploadImages[index].includes("square")){
+                var newbox = document.createElement("DIV");
+                newbox.classList.add("imagebox");         
+                document.getElementById("freebox").appendChild(newbox);
+                var newimg = document.createElement("IMG");
+                newimg.src = upuploadImages[index];
+                newimg.classList.add("uploadimage");
+                newimg.classList.add("button");
+                newbox.appendChild(newimg);
+                
+            }
+        }
+    }
+};
+httpc9.open("GET", "list-files.php", true);
+httpc9.send();
+*/
 
 </script>
 </body>

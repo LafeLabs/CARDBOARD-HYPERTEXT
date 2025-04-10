@@ -9,6 +9,8 @@
         "edit-index.html",
         "edit-php.html",
         "edit-qrcode-list.html",
+        "freebox.html",
+        "geometron-squares.html",
         "geometron.js",
         "index.html",
         "qrcode-list.html",
@@ -32,6 +34,8 @@
         "load-file.txt",
         "local-replicator.txt",
         "replicator.txt",
-        "save-file.txt"
+        "save-file.txt",
+        "save-png.txt",
+        "upload-image.txt"
     ]
 }
