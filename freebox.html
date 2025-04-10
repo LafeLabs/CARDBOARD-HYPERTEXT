@@ -69,10 +69,10 @@ function loadimagefeed(){
             newuploadbox.appendChild(newimg);
             document.getElementById("imagefeed").appendChild(newuploadbox);
     
-    //        var newdiv = document.createElement("DIV");
-      //      newdiv.innerHTML = uploadImages[index];
-        //    newdiv.className = "filelabel";
-          //  newuploadbox.appendChild(newdiv);
+            var newdiv = document.createElement("DIV");
+            newdiv.innerHTML = uploadImages[index];
+            newdiv.className = "filelabel";
+            newuploadbox.appendChild(newdiv);
         
             if(deletemode){
                 var newspan = document.createElement("SPAN");
@@ -82,11 +82,13 @@ function loadimagefeed(){
                 newspan.classList.add("deletebutton");
                 newspan.onclick = function(){
                     var imageurl =this.parentElement.getElementsByClassName("uploadimage")[0].src; 
+                    imagefilename = imageurl.split("/")[imageurl.split("/").length-1];
+                    console.log("imagefilename");
                     var httpc = new XMLHttpRequest();
                     var url = "delete-file.php";         
                     httpc.open("POST", url, true);
                     httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
-                    httpc.send("filename=" + imageurl);//send text to deletefile.php
+                    httpc.send("filename=" + imagefilename);//send text to deletefile.php
                     this.parentElement.parentElement.removeChild(this.parentElement);
                 }   
             }   
@@ -104,7 +106,9 @@ function loadimagefeed(){
 #fileToUpload,#submitinput{
     cursor:pointer;
 }
-
+.filelabel{
+    display:none;
+}
 body{
     overflow:hidden;
     font-size:1em;
