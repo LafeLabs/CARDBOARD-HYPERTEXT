@@ -47,30 +47,28 @@ CAPS LOCK ALWAYS ON!
     <div id = "qrcode"></div>
 
     <a href = "../">UP TO NEXT HIGHER LEVEL IN TRASH MAGIC TREE!</a> 
+    <a href = "branch.html">branch.html</a>
+    <div id = "tree"></div>
     <a href = "https://github.com/LafeLabs/CARDBOARD-HYPERTEXT/">REPLICATE!</a>
 
     <H1>CARDBOARD HYPERTEXT!</H1>
-
-    <a href = "freebox.html">freebox.html</a>
-    
-    <div id = "freebox"></div>
 
     <P>TRASH MAGIC IS SELF-REPLICATING MEDIA ON THE WORLD WIDE WEB!</P>
 
     <a href = "https://github.com/LafeLabs/CARDBOARD-HYPERTEXT/">REPLICATE!</a>
     <a href = "edit-index.html">edit-index.html</a>
-    <a href = "edit-html.html">edit-html.html</a>
-    <a href = "edit-php.html">edit-php.html</a>
-    <a href = "delete-html.html">delete-html.html</a>
-    <a href = "branch.html">branch.html</a>
     <A href = "qrcode.html">qrcode.html</A>
     <A HREF = "qrcode-page.html">qrcode-page.html</A>
     <a href = "qrcode-list.html">qrcode-list.html</a>
-    <a href = "edit-qrcode-list.html">edit-qrcode-list.html</a>
     <a href = "squares.html">squares.html</a>
     <a href = "geometron-squares.html">geometron-squares.html</a>
     <a href = "readme.html">Local README.md</a>
-
+    <a href = "freebox.html">freebox.html</a>
+    <div id = "freebox"></div>
+    <a href = "edit-html.html">edit-html.html</a>
+    <a href = "edit-php.html">edit-php.html</a>
+    <a href = "delete-html.html">delete-html.html</a>
+    <a href = "edit-qrcode-list.html">edit-qrcode-list.html</a>
 
 <H1>WRITE ON THE WALL BELOW!</H1>
 
@@ -151,30 +149,26 @@ function loadimagefeed(){
     }    
 }
 
-/*
-upuploadImages = [];
-var httpc9 = new XMLHttpRequest();
-    httpc9.onreadystatechange = function() {
+branches = [];
+var httpc = new XMLHttpRequest();
+    httpc.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        upuploadImages = JSON.parse(this.responseText);
-        for(var index = upuploadImages.length - 1;index >= 0;index--) {
-            if(upuploadImages[index].includes(".png") && upuploadImages[index].includes("square")){
-                var newbox = document.createElement("DIV");
-                newbox.classList.add("imagebox");         
-                document.getElementById("freebox").appendChild(newbox);
-                var newimg = document.createElement("IMG");
-                newimg.src = upuploadImages[index];
-                newimg.classList.add("uploadimage");
-                newimg.classList.add("button");
-                newbox.appendChild(newimg);
-                
+        branches = JSON.parse(this.responseText);
+        for(var index = 0;index < branches.length;index++) {
+            if(branches[index] != "php"){
+                var newa = document.createElement("A");
+                newa.innerHTML = branches[index] + "/";
+                newa.href = branches[index] + "/";
+                document.getElementById("tree").appendChild(newa);
             }
         }
+        rainbow(document.getElementsByTagName("A"));
+
     }
 };
-httpc9.open("GET", "list-files.php", true);
-httpc9.send();
-*/
+
+httpc.open("GET", "list-branches.php", true);
+httpc.send();
 
 </script>
 </body>

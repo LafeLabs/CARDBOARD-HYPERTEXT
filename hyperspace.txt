@@ -4,10 +4,6 @@
         "url": "index.html"
     },
     {
-        "text": "qrcode-list.html",
-        "url": "qrcode-list.html"
-    },
-    {
         "text": "BEAUTIFUL MATH TYPESETTING<BR>MATHJAX.JS",
         "url": "https://www.mathjax.org/"
     },
