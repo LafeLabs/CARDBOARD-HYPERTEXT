@@ -1,11 +1,15 @@
 [
     {
-        "text": "index.html",
-        "url": "index.html"
+        "text": "EDIT QR CODE LIST",
+        "url": "edit-qrcode-list.html"
     },
     {
         "text": "qrcode-list.html",
         "url": "qrcode-list.html"
+    },
+    {
+        "text": "index.html",
+        "url": "index.html"
     },
     {
         "text": "BEAUTIFUL MATH TYPESETTING<BR>MATHJAX.JS",
@@ -48,11 +52,67 @@
         "url": "https://github.com/LafeLabs/ORGANIC-WEB"
     },
     {
-        "text": "edit-qrcode-list.html",
-        "url": "edit-qrcode-list.html"
+        "text": "CARDBOARD HYPERTEXT",
+        "url": "github.com/LafeLabs/CARDBOARD-HYPERTEXT"
     },
     {
-        "text": "edit-html.html",
-        "url": "edit-html.html"
+        "text": "TRASHROBOT DOT NET",
+        "url": "https://trashrobot.net/"
+    },
+    {
+        "text": "REPLICATE TRASH MAGIC SERVER",
+        "url": "https://github.com/LafeLabs/REPLICATE-TRASH-MAGIC-SERVER"
+    },
+    {
+        "text": "XAMPP LOCAL SERVER",
+        "url": "https://www.apachefriends.org/"
+    },
+    {
+        "text": "UBUNTU STUDIO FREE ART AND MUSIC SOFTWARE",
+        "url": "https://ubuntustudio.org/"
+    },
+    {
+        "text": "UBUNTU DESKTOP",
+        "url": "https://ubuntu.com/download/desktop"
+    },
+    {
+        "text": "PHP.NET",
+        "url": "https://www.php.net/"
+    },
+    {
+        "text": "APACHE.ORG",
+        "url": "https://www.apache.org/"
+    },
+    {
+        "text": "THE WORLD WIDE WEB ON WIKIPEDIA",
+        "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+    },
+    {
+        "text": "HTML TUTORIAL",
+        "url": "https://www.w3schools.com/html/"
+    },
+    {
+        "text": "HTML ON WIKIPEDIA",
+        "url": "https://en.wikipedia.org/wiki/HTML"
+    },
+    {
+        "text": "CSS ON WIKIPEDIA",
+        "url": "https://en.wikipedia.org/wiki/CSS"
+    },
+    {
+        "text": "CSS TURORIAL",
+        "url": "https://www.w3schools.com/css/"
+    },
+    {
+        "text": "CODEPEN.IO LEARN AND SHARE HTML+JS+CSS",
+        "url": "https://codepen.io/"
+    },
+    {
+        "text": "JAVASCRIPT TUTORIAL",
+        "url": "https://www.w3schools.com/js/"
+    },
+    {
+        "text": "JAVASCRIPT ON WIKIPEDIA",
+        "url": "https://en.wikipedia.org/wiki/JavaScript"
     }
 ]
