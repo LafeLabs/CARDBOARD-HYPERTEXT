@@ -12,6 +12,7 @@ WHEN THE WEB POINTS TO PLACES WHERE CARDBOARD FLOWS ALONG THE [STREET NETWORK](h
 
 ![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/qrcode.png)
 ![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/qrcode-page.png)
+![](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/qrcode-list.png)
 
 ### [GLOBAL TRASH MAGIC REPLICATOR LINK](https://raw.githubusercontent.com/LafeLabs/CARDBOARD-HYPERTEXT/refs/heads/main/php/replicator.txt)
 
