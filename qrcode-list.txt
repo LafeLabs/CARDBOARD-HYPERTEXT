@@ -53,7 +53,7 @@
     },
     {
         "text": "CARDBOARD HYPERTEXT",
-        "url": "github.com/LafeLabs/CARDBOARD-HYPERTEXT"
+        "url": "https://github.com/LafeLabs/CARDBOARD-HYPERTEXT"
     },
     {
         "text": "TRASHROBOT DOT NET",
@@ -114,5 +114,17 @@
     {
         "text": "JAVASCRIPT ON WIKIPEDIA",
         "url": "https://en.wikipedia.org/wiki/JavaScript"
+    },
+    {
+        "text": "HYPERLAND WITH TOM BAKER AND DOUGLAS ADAMS",
+        "url": "https://archive.org/details/DouglasAdams-Hyperland"
+    },
+    {
+        "text": "HYPERLAND WITH TOM BAKER AND DOUGLAS ADAMS",
+        "url": "https://archive.org/details/DouglasAdams-Hyperland"
+    },
+    {
+        "text": "HYPERTEXT ON WIKIPEDIA",
+        "url": "https://en.wikipedia.org/wiki/Hypertext"
     }
 ]
